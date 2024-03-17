@@ -13,6 +13,23 @@
        "heavy cream",
        "milk"
      ]
-   }
+   },
+   {
+    "name": "Egg Roll in a Bowl",
+    "author": "Natasha Kravchuk",
+    "description": "A delicious, healthy twist on a classic Chinese-takeout favorite.",
+    "website": "https://natashaskitchen.com/egg-roll-in-a-bowl-recipe/",
+    "recipeImage": "https://natashaskitchen.com/wp-content/uploads/2023/01/Eggroll-Bowl-5.jpg",
+    "authorImage": "https://natashaskitchen.com/wp-content/uploads/2023/02/NK-Head-Red-Shirt-small.png",
+    "ingredients": [
+      "Ground meat",
+      "Onion",
+      "Carrot",
+      "Garlic",
+      "Cabbage",
+      "Soy Sauce",
+      "Seasoning"
+    ]
+  }
  ]
  
