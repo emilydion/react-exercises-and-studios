@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://natashaskitchen.com/egg-roll-in-a-bowl-recipe/";
+   let authorPhoto = "https://natashaskitchen.com/wp-content/uploads/2023/02/NK-Head-Red-Shirt-small.png";
+   let authorName = "Natasha Kravchuk";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Ground meat", "Onion", "Carrot", "Garlic", "Cabbage", "Soy Sauce", "Seasoning"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Egg Roll in a Bowl</h1>
+            <p>A delicious, healthy twist on a classic Chinese-takeout favorite.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://natashaskitchen.com/wp-content/uploads/2023/01/Eggroll-Bowl-5.jpg" alt="Picture of egg roll in a bowl" className="imageUpdates"/>
    );
 }
 
